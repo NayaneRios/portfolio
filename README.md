@@ -7,7 +7,7 @@
   </p>
 
   <p>
-    <a href="https://SEU-USUARIO.github.io/portfolio" target="_blank">
+    <a href="https://nayanerios.github.io/portfolio/" target="_blank">
       <strong>🔗 Live Demo / Ver Online</strong>
     </a>
   </p>
