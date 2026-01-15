@@ -18,7 +18,7 @@ Este é o meu portfólio pessoal, desenvolvido com uma temática focada na inter
 
 ## 📂 Estrutura do Projeto
 
-
+```text
 ├── css/
 │   └── style.css      # Estilização e animações
 ├── js/
