@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayane Rios | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <nav>
+        <div class="logo">Nayane.dev 🪐</div>
+        <ul>
+            <li><a href="#about" data-lang="nav_about">Sobre</a></li>
+            <li><a href="#skills" data-lang="nav_skills">Habilidades</a></li>
+            <li><a href="#design" data-lang="nav_design">Design & Mídia</a></li>
+            <li><button id="lang-switch">EN / PT</button></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="content">
+            <h1 data-lang="hero_title">Olá, sou <span class="highlight-name">Nayane Rios</span></h1>
+            <h2 data-lang="hero_subtitle">Tecnologia da Informação & Design</h2>
+            <p data-lang="hero_desc">Estudante da UFMS, explorando o universo do código e da criatividade.</p>
+            <div class="buttons">
+                <a href="https://linkedin.com/in/nayane-rios-8726612ba" target="_blank" class="btn-linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/NayaneRios" target="_blank" class="btn-github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="container">
+        <h2 data-lang="nav_skills">Habilidades Técnicas</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fab fa-python"></i>
+                <h3 data-lang="skill_python_title">Python / JS</h3>
+                <p data-lang="skill_python_desc">Desenvolvimento Web & Automação</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Power BI & Office</h3>
+                <p data-lang="skill_office">Análise de Dados (Básico) & Pacote Office</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-robot"></i>
+                <h3>IA (Inteligência Artificial)</h3>
+                <p data-lang="skill_ia">Prompt Engineering & Copywriting</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-language"></i>
+                <h3 data-lang="skill_lang_title">Idiomas</h3>
+                <ul class="skill-list compact">
+                    <li data-lang="lang_en">Inglês (Avançado)</li>
+                    <li data-lang="lang_es">Espanhol (Intermediário)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="design" class="container">
+        <h2 data-lang="sec_design">Portfólio Criativo</h2>
+        <div class="grid">
+            <div class="card design-card">
+                <i class="fas fa-video"></i>
+                <h3 data-lang="card_video">Edição de Vídeo</h3>
+                <span class="tool-name">Adobe Premiere Pro</span>
+                <ul class="skill-list" data-lang="video_details">
+                    <li>Tratamento de Cor (Color Grading)</li>
+                    <li>Tratamento de Áudio & Mixagem</li>
+                    <li>Transições Avançadas</li>
+                    <li>Legendas Dinâmicas</li>
+                </ul>
+                <a href="https://drive.google.com/drive/folders/1ywXic596IukLU0hpv6WlbEqoYuheoj7M?usp=drive_link"
+                    class="link-text" data-lang="btn_projects">Ver Projetos &rarr;</a>
+            </div>
+
+            <div class="card design-card">
+                <i class="fas fa-palette"></i>
+                <h3 data-lang="card_art">Design Gráfico</h3>
+                <span class="tool-name">Canva & Photoshop</span>
+                <ul class="skill-list" data-lang="design_details">
+                    <li>Identidade Visual</li>
+                    <li>Social Media Design</li>
+                    <li>Criação de Logos</li>
+                    <li>Estilos Diversos & Criativos</li>
+                </ul>
+                <a href="https://www.behance.net/nayanerrios" class="link-text" data-lang="btn_arts">Ver Artes
+                    &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 data-lang="sec_education">Formação & Cursos</h2>
+        <div class="grid">
+            <div class="card education-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3 data-lang="edu_title">Graduação</h3>
+                <p><strong data-lang="edu_course">Tecnologia da Informação</strong></p>
+                <p data-lang="edu_location">UFMS - Campo Grande/MS</p>
+            </div>
+
+            <div class="card education-card">
+                <i class="fas fa-certificate"></i>
+                <h3 data-lang="course_title">Certificações</h3>
+                <ul class="skill-list" data-lang="course_list">
+                    <li>Formação Social Media Marketing</li>
+                    <li>Copywriting Avançado com IA</li>
+                    <li>QA: Qualidade de Software</li>
+                    <li>Gestão de Tráfego Pago e Mídia</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Nayane Rios 🚀</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
