@@ -25,20 +25,6 @@ Este é o meu portfólio pessoal, desenvolvido com uma temática focada na inter
 │   └── script.js      # Lógica de tradução e interatividade
 └── index.html         # Página principal
 
-### 🚀 Project Description
-This is my personal portfolio, developed with a thematic focus on the intersection of **Information Technology** and **Creative Design**. The project was built to be lightweight, responsive, and fully bilingual, showcasing my skills in development, video editing, and graphic design.
-
-### ✨ Key Features
-* **Bilingual System:** Instant language switch (English/Portuguese) without page reload using JavaScript.
-* **Responsive Design:** Fully adapted for mobile and desktop devices.
-* **"Space Tech" Aesthetic:** Visual effects featuring glassmorphism, nebula animations, and dynamic starry backgrounds.
-* **Dynamic Content:** Content updates dynamically based on the selected language.
-
-### 🛠️ Technologies Used
-* **HTML5:** Semantic structuring.
-* **CSS3:** Advanced styling with variables, Flexbox/Grid, and Keyframe animations.
-* **JavaScript (Vanilla):** DOM manipulation and internationalization logic.
-* **Font Awesome:** Icon library for UI elements.
 
 ### 📂 Project Structure
 ```text
